@@ -14,9 +14,13 @@ public class Application {
             Scanner sc = new Scanner(System.in);
             int input = sc.nextInt();
             switch(input){
-                case 1,2:
+                case 1:
                     Kim kim = new Kim();
-                    kim.plusMinus();
+                    kim.plus();
+                    break;
+                case 2:
+                    Kim Kim = new Kim();
+                    Kim.Minus3();
                     break;
                 case 3:
                     Bae bae = new Bae();
