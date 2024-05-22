@@ -64,13 +64,11 @@ public class Lee {
 
         String str2 = sc.nextLine();
         char ch1 = str1.charAt(0);
+        char ch2 = str2.charAt(0);
 
+        int divide = str1.charAt(0)/ str2.charAt(0);
 
-
-
-//        System.out.println("나눈 결과의 몫은 : " + ch3);
-
-
+        System.out.println("나눈 값의 몫은 :" + divide);
 
 
 
@@ -80,7 +78,24 @@ public class Lee {
 
     }
 
+    public void rest () {
 
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("나누기를 실행할 정수를 입력해주세요");
+        int n1 = sc.nextInt();
+
+        System.out.println("몇으로 나눌까요?");
+        int n2 = sc.nextInt();
+
+        int n3 = n1 % n2;
+
+        System.out.println("나눈 결과의 나머지는 : " + n3);
+
+
+
+
+    }
 
 
 
