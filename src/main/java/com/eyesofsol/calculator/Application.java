@@ -9,4 +9,18 @@ public class Application {
     kim.Calculator();
     }
 
+
+    public static void main(String[] args) {
+
+        Lee lee = new Lee();
+//        lee.divide();
+//        lee.Rest();
+//        lee.divide2();
+        lee.divide3();
+
+
+
+
+    }
+
 }
