@@ -42,22 +42,21 @@ public class Kim {
             System.out.print("두번째 문자 입력: ");
             String str2 = sc.nextLine();
             char ch2 = str2.charAt(0);
-            int n1 = (int) (ch1 + ch2);
-            System.out.println(ch1 + " " + giho + " " + ch2 + " = " + n1);
+            int sum = (int) (ch1 + ch2);
+            System.out.println(ch1 + " " + giho + " " + ch2 + " = " + sum);
             switch (giho) {
 
                 case "+":
-                    n1 = ch1 + ch2;
+                    sum = ch1 + ch2;
                     break;
                 case "-":
-                    n1 = ch1 - ch2;
+                    sum = ch1 - ch2;
                     break;
                 default:
                     System.out.println("기호 입력이 잘못됬습니다.");
                     break;
             }
     }
-
     public static void Calculator() {
     Scanner sc = new Scanner(System.in);
     System.out.print("첫번째 문자 입력: ");
@@ -93,9 +92,9 @@ public class Kim {
             default:
             System.out.println("기호 입력이 잘못됬습니다.");
             break;
-    }
+        }
 
-}
+    }
 
 
 }
