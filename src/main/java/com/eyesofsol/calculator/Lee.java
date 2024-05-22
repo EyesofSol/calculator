@@ -1,4 +1,7 @@
 package com.eyesofsol.calculator;
 
-public class Leedeukkyu {
+public class Lee {
+
+
+
 }
