@@ -15,7 +15,7 @@ public class Hong {
             for(int i = 1 ; i < n2 ; i++){
                 result *= n1;
             }
-            System.out.println(n1 + "의 " + n2 + "제곱은 " + (int)result + "입니다.");
+            System.out.println(n1 + "의 " + n2 + "제곱은 " + result + "입니다.");
         }
         else if(n2 == 0){
             result = 1;
