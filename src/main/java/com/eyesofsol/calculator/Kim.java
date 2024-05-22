@@ -18,12 +18,14 @@ public class Kim {
         switch (operator) {
             case "+":
                 n3 = n1 + n2;
+
                 break;
             case "-":
                 n3 = n1 - n2;
+
                 break;
             default:
-                System.out.println("기호 입력이 잘못됬습니다.");
+                System.out.println("기호 입력이 잘못되었습니다.");
                 break;
 
         }
@@ -55,7 +57,7 @@ public class Kim {
                 sum = ch1 - ch2;
                 break;
             default:
-                System.out.println("기호 입력이 잘못됬습니다.");
+                System.out.println("기호 입력이 잘못되었습니다.");
                 break;
         }
     }
@@ -92,7 +94,7 @@ public class Kim {
                 break;
 
             default:
-            System.out.println("기호 입력이 잘못됬습니다.");
+            System.out.println("기호 입력이 잘못되었습니다.");
             break;
         }
     }
